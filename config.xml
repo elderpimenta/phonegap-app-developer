@@ -13,7 +13,7 @@
     <hook src="resources/script/add-version.js" type="before_build" />
     <hook src="resources/script/remove-version.js" type="after_compile" />
     <preference name="StatusBarStyle" value="default" />
-    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
     <content src="index.html" />
@@ -42,6 +42,15 @@
         <icon height="87" src="resources/icon/ios/icon-small@3x.png" width="87" />
         <icon height="1024" src="resources/icon/ios/icon-1024.png" width="1024" />
         
+        <splash src="resources/splash/ios/Default@2x~iphone~anyany.png" />
+        <splash src="resources/splash/ios/Default@2x~iphone~comany.png" />
+        <splash src="resources/splash/ios/Default@2x~iphone~comcom.png" />
+        <splash src="resources/splash/ios/Default@3x~iphone~anyany.png" />
+        <splash src="resources/splash/ios/Default@3x~iphone~anycom.png" />
+        <splash src="resources/splash/ios/Default@3x~iphone~comany.png" />
+        <splash src="resources/splash/ios/Default@2x~ipad~anyany.png" />
+        <splash src="resources/splash/ios/Default@2x~ipad~comany.png" />
+        
         <!--
         <splash height="480" src="resources/splash/ios/Default~iphone.png" width="320" />
         <splash height="960" src="resources/splash/ios/Default@2x~iphone.png" width="640" />
@@ -55,8 +64,8 @@
         <splash height="1242" src="resources/splash/ios/Default-Landscape-736h.png" width="2208" />
         -->
         <!-- ELDER (ini) -->
-        <!-- <splash src="resources/splash/ios/Default@3x~iphone~anycom.png" width="1242" /> -->
-        <splash src="resources/splash/ios/Default@2x~universal~anyany.png" />
+        <!-- <splash src="resources/splash/ios/Default@3x~iphone~anycom.png" width="1242" /> 
+        <splash src="resources/splash/ios/Default@2x~universal~anyany.png" /> -->
         <!-- ELDER (end) -->
         
     </platform>
