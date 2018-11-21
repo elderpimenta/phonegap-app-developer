@@ -53,7 +53,7 @@
         <splash height="1242" src="resources/splash/ios/Default-Landscape-736h.png" width="2208" />
         
         <!-- ELDER (ini) -->
-        <splash src=”resources/splash/ios/Default@3x~iphone~anycom.png” width="1242" />
+        <splash src="resources/splash/ios/Default@3x~iphone~anycom.png" width="1242" />
         <!-- ELDER (end) -->
         
     </platform>
