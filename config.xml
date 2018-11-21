@@ -47,7 +47,7 @@
         <preference name="StatusBarOverlaysWebView" value="true" />
         <preference name="StatusBarBackgroundColor" value="#000000" />
         <preference name="StatusBarStyle" value="lightcontent" />
-        -->
+        
         
         <splash src="resources/splash/ios/Default@2x~iphone~anyany.png" />
         <splash src="resources/splash/ios/Default@2x~iphone~comany.png" />
@@ -57,6 +57,7 @@
         <splash src="resources/splash/ios/Default@3x~iphone~comany.png" />
         <splash src="resources/splash/ios/Default@2x~ipad~anyany.png" />
         <splash src="resources/splash/ios/Default@2x~ipad~comany.png" />
+        -->
         
         <!--
         <splash height="480" src="resources/splash/ios/Default~iphone.png" width="320" />
