@@ -56,6 +56,7 @@
         <splash height="2208" src="resources/splash/ios/Default-736h.png" width="1242" />
         <splash height="1242" src="resources/splash/ios/Default-Landscape-736h.png" width="2208" />
         -->
+        <preference name="SplashScreen" value="splash" />
         
         <splash src="res/screen/ios/Default@2x~iphone~anyany.png" />
 <splash src="res/screen/ios/Default@2x~iphone~comany.png" />
