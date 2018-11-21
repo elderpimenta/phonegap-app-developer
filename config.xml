@@ -13,7 +13,7 @@
     <hook src="resources/script/add-version.js" type="before_build" />
     <hook src="resources/script/remove-version.js" type="after_compile" />
     <preference name="StatusBarStyle" value="default" />
-    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
     <content src="index.html" />
@@ -21,7 +21,7 @@
     </platform>
     <platform name="ios">
         <preference name="Orientation" value="all" />
-        <!-- <preference name="AutoHideSplashScreen" value="false" /> -->
+        <preference name="AutoHideSplashScreen" value="false" />
         <icon height="167" src="resources/icon/ios/icon-83.5@2x.png" width="167" />
         <icon height="76" src="resources/icon/ios/icon-76.png" width="76" />
         <icon height="152" src="resources/icon/ios/icon-76@2x.png" width="152" />
