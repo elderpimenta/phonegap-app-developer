@@ -21,7 +21,7 @@
     </platform>
     <platform name="ios">
         <preference name="Orientation" value="all" />
-        <preference name="AutoHideSplashScreen" value="false" />
+        <!-- <preference name="AutoHideSplashScreen" value="false" /> -->
         <icon height="167" src="resources/icon/ios/icon-83.5@2x.png" width="167" />
         <icon height="76" src="resources/icon/ios/icon-76.png" width="76" />
         <icon height="152" src="resources/icon/ios/icon-76@2x.png" width="152" />
@@ -41,6 +41,8 @@
         <icon height="58" src="resources/icon/ios/icon-small@2x.png" width="58" />
         <icon height="87" src="resources/icon/ios/icon-small@3x.png" width="87" />
         <icon height="1024" src="resources/icon/ios/icon-1024.png" width="1024" />
+        
+        <!--
         <splash height="480" src="resources/splash/ios/Default~iphone.png" width="320" />
         <splash height="960" src="resources/splash/ios/Default@2x~iphone.png" width="640" />
         <splash height="1024" src="resources/splash/ios/Default-Portrait~ipad.png" width="768" />
@@ -51,9 +53,9 @@
         <splash height="1334" src="resources/splash/ios/Default-667h.png" width="750" />
         <splash height="2208" src="resources/splash/ios/Default-736h.png" width="1242" />
         <splash height="1242" src="resources/splash/ios/Default-Landscape-736h.png" width="2208" />
-        
+        -->
         <!-- ELDER (ini) -->
-        <splash src="resources/splash/ios/Default@3x~iphone~anycom.png" width="1242" />
+        <!-- <splash src="resources/splash/ios/Default@3x~iphone~anycom.png" width="1242" /> -->
         <splash src="resources/splash/ios/Default@2x~universal~anyany.png" />
         <!-- ELDER (end) -->
         
