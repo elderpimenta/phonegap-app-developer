@@ -53,6 +53,12 @@
         <splash height="1334" src="resources/splash/ios/Default-667h.png" width="750" />
         <splash height="2208" src="resources/splash/ios/Default-736h.png" width="1242" />
         <splash height="1242" src="resources/splash/ios/Default-Landscape-736h.png" width="2208" />
+        
+        <splash height="2436" src="res/screen/ios/Default-2436h.png" width="1125" />
+        <preference name="StatusBarOverlaysWebView" value="true" />
+        <preference name="StatusBarBackgroundColor" value="#000000" />
+        <preference name="StatusBarStyle" value="lightcontent" />
+        
     </platform>
     <!--
     <platform name="android">
@@ -67,7 +73,7 @@
     </platform>
     -->
     <engine name="android" spec="~6.4.0" />
-    <engine name="ios" spec="^4.5.3" />
+    <engine name="ios" spec="^4.5.4" />
     <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
     <plugin name="cordova-plugin-ble-central" spec="^1.1.4">
         <variable name="BLUETOOTH_USAGE_DESCRIPTION" value="Bluetooth development purposes" />
